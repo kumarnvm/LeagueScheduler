@@ -86,13 +86,13 @@ namespace DataGenerator
                 var team2TakesScoreboard = (game.Team2 == game.Scoreboard).ToString().ToLower();
 
                 var lineFormat = "{{ team1: '{0}', team2: '{1}', time: new Date({5}, {6}, {7}, {8}, 0, 0), team1TakesScoreboard: {3}, team2TakesScoreboard: {4}, location: '{2}', locationUrl: locations['{2}'] }},\n";
-                js.AppendFormat(lineFormat, game.Team1, game.Team2, game.Location, team1TakesScoreboard, team2TakesScoreboard, game.Date.Year, game.Date.Month, game.Date.Day, game.Time.Hour + 12);
+                js.AppendFormat(lineFormat, game.Team1, game.Team2, game.Location, team1TakesScoreboard, team2TakesScoreboard, game.Date.Year, game.Date.Month-1, game.Date.Day, game.Time.Hour + 12);
                 if (!string.IsNullOrWhiteSpace(game.Location2Team1))
                 {
                     var team1TakesScoreboardLoc2 = (game.Location2Team1 == game.Location2Scoreboard).ToString().ToLower();
                     var team2TakesScoreboardLoc2 = (game.Location2Team2 == game.Location2Scoreboard).ToString().ToLower();
 
-                    js.AppendFormat(lineFormat, game.Location2Team1, game.Location2Team2, game.Location2, team1TakesScoreboardLoc2, team2TakesScoreboardLoc2, game.Date.Year, game.Date.Month, game.Date.Day, game.Time.Hour + 12);
+                    js.AppendFormat(lineFormat, game.Location2Team1, game.Location2Team2, game.Location2, team1TakesScoreboardLoc2, team2TakesScoreboardLoc2, game.Date.Year, game.Date.Month-1, game.Date.Day, game.Time.Hour + 12);
                 }
             }
 
