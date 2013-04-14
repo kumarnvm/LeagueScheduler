@@ -1,50 +1,54 @@
-﻿define(['durandal/system'],
-    function (system) {
-        var teams = [
-                { id: 1, name: "Michelotti-Red" },
-                { id: 2, name: "Michelotti-Blue" },
-                { id: 3, name: "Swartz-Purple" },
-                { id: 4, name: "Swartz-White" },
-                { id: 5, name: "Kirkland" },
-                { id: 6, name: "Roberts" },
-                { id: 7, name: "Wolfrey" },
-                { id: 8, name: "Collins" }
-        ];
+﻿define(['durandal/system'], function (system) {
+    var teams = [
+        { name: 'Collins' },
+        { name: 'DeLuca' },
+        { name: 'Jackson' },
+        { name: 'Kirkland' },
+        { name: 'Michelotti-Blue' },
+        { name: 'Michelotti-Red' },
+        { name: 'Morgan' },
+        { name: 'Myers' },
+        { name: 'Orlosky' },
+        { name: 'Roberts' },
+        { name: 'Swartz-Purple' },
+        { name: 'Swartz-White' },
+        { name: 'Wimberly' },
+        { name: 'Wolfrey' },
+    ];
 
-        var locations = {};
-        locations["Dunloggin"] = "http://goo.gl/maps/fwuJd";
-        locations["Veterans"] = "http://goo.gl/maps/LXr19";
+    var locations = {};
+    locations['Dunloggin'] = 'http://goo.gl/maps/fwuJd';
+    locations['Veterans'] = 'http://goo.gl/maps/LXr19';
 
-        var locationsArray = new Array();
-        for (key in locations) {
-            locationsArray.push({ name: key, locationUrl: locations[key] });
-        }
+    var locationsArray = new Array();
+    for (key in locations) {
+        locationsArray.push({ name: key, locationUrl: locations[key] });
+    }
 
-        var games = [
-            { id: 1, team1: "Michelotti-Red", team2: "Wolfrey", time: new Date(2013, 4, 19, 18, 0, 0), location: "Dunloggin" },
-            { id: 2, team1: "Michelotti-Blue", team2: "Wolfrey", time: new Date(2013, 4, 19, 18, 0, 0), location: "Dunloggin" },
-            { id: 3, team1: "Swartz-Purple", team2: "Wolfrey", time: new Date(2013, 4, 19, 18, 0, 0), location: "Dunloggin" },
-            { id: 4, team1: "Swartz-White", team2: "Wolfrey", time: new Date(2013, 4, 19, 18, 0, 0), location: "Dunloggin" },
-            { id: 5, team1: "Kirkland", team2: "Wolfrey", time: new Date(2013, 4, 19, 18, 0, 0), location: "Dunloggin" },
-            { id: 6, team1: "Roberts", team2: "Wolfrey", time: new Date(2013, 4, 19, 18, 0, 0), location: "Dunloggin" },
-            { id: 7, team1: "Wolfrey", team2: "Wolfrey", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" },
-            { id: 8, team1: "Collins", team2: "Wolfrey", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" },
-            { id: 9, team1: "Michelotti-Red", team2: "Orlosky", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" },
-            { id: 10, team1: "Michelotti-Blue", team2: "Orlosky", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" },
-            { id: 11, team1: "Swartz-Purple", team2: "Michelotti-Red", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" },
-            { id: 12, team1: "Swartz-White", team2: "Orlosky", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" },
-            { id: 13, team1: "Kirkland", team2: "Michelotti-Red", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" },
-            { id: 14, team1: "Roberts", team2: "Orlosky", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" },
-            { id: 15, team1: "Wolfrey", team2: "Orlosky", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" },
-            { id: 16, team1: "Collins", team2: "Orlosky", time: new Date(2013, 4, 26, 18, 0, 0), location: "Dunloggin" }
-        ];
+    var games = [
+    { team1: 'Michelotti-Red', team2: 'Jackson', time: new Date(2013, 4, 19, 18, 0, 0), location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'TBD', team2: 'TBD', time: new Date(2013, 4, 19, 18, 0, 0), location: 'Veterans', locationUrl: locations['Veterans'] },
+    { team1: 'Michelotti-Blue', team2: 'Morgan', time: new Date(2013, 4, 19, 19, 0, 0), location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Swartz-Purple', team2: 'Kirkland', time: new Date(2013, 4, 19, 19, 0, 0), location: 'Veterans', locationUrl: locations['Veterans'] },
+    { team1: 'Roberts', team2: 'Collins', time: new Date(2013, 4, 19, 20, 0, 0), location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Swartz-White', team2: 'Wolfrey', time: new Date(2013, 4, 19, 20, 0, 0), location: 'Veterans', locationUrl: locations['Veterans'] },
+    { team1: 'Myers', team2: 'DeLuca', time: new Date(2013, 4, 19, 21, 0, 0), location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Wimberly', team2: 'Orlosky', time: new Date(2013, 4, 19, 21, 0, 0), location: 'Veterans', locationUrl: locations['Veterans'] },
+    { team1: 'DeLuca', team2: 'Michelotti-Red', time: new Date(2013, 4, 26, 18, 0, 0), location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'TBD', team2: 'TBD', time: new Date(2013, 4, 26, 18, 0, 0), location: 'Veterans', locationUrl: locations['Veterans'] },
+    { team1: 'Myers', team2: 'Michelotti-Blue', time: new Date(2013, 4, 26, 19, 0, 0), location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Orlosky', team2: 'Jackson', time: new Date(2013, 4, 26, 19, 0, 0), location: 'Veterans', locationUrl: locations['Veterans'] },
+    { team1: 'Swartz-Purple', team2: 'Roberts', time: new Date(2013, 4, 26, 20, 0, 0), location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Collins', team2: 'Wolfrey', time: new Date(2013, 4, 26, 20, 0, 0), location: 'Veterans', locationUrl: locations['Veterans'] },
+    { team1: 'Swartz-White', team2: 'Kirkland', time: new Date(2013, 4, 26, 21, 0, 0), location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Wimberly', team2: 'Morgan', time: new Date(2013, 4, 26, 21, 0, 0), location: 'Veterans', locationUrl: locations['Veterans'] },
+    ];
 
-        var data = {
-            teams: teams,
-            locations: locations,
-            locationsArray: locationsArray,
-            games: games
-        };
-
-        return data;
-    });
+    var data = {
+        teams: teams,
+        locations: locations,
+        locationsArray: locationsArray,
+        games: games
+    };
+    return data;
+});

@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueScheduler", "LeagueSc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueScheduler.Tests", "LeagueScheduler.Tests\LeagueScheduler.Tests.csproj", "{AE07BD70-2CC9-42DE-8B9C-26651C79D58E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{032D7618-12CD-408A-A5F2-868D0C54B276}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{AE07BD70-2CC9-42DE-8B9C-26651C79D58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE07BD70-2CC9-42DE-8B9C-26651C79D58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE07BD70-2CC9-42DE-8B9C-26651C79D58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032D7618-12CD-408A-A5F2-868D0C54B276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032D7618-12CD-408A-A5F2-868D0C54B276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032D7618-12CD-408A-A5F2-868D0C54B276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032D7618-12CD-408A-A5F2-868D0C54B276}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
