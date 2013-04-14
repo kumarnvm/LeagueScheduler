@@ -24,7 +24,6 @@
         var filtered = ko.utils.arrayMap(filtered, function (item) {
             var isTeam1 = item.team1 === data.name;
             var opponentName = (item.team1 == data.name ? item.team2 : item.team1);
-            //return { opponent: opponentName, time: item.time, location: item.location, locationUrl: leagueData.locations[item.location] };
             return { opponent: opponentName, time: item.time, location: item.location, locationUrl: item.locationUrl };
         });
         

@@ -22,10 +22,6 @@
 
         //var filtered2 = linq(games).Where(function (item) { return item.team1 == data.name; });
         var filtered = ko.utils.arrayFilter(leagueData.games, function (item) { return item.location == data.name; });
-        //var filtered = ko.utils.arrayMap(filtered, function (item) {
-        //    var opponentName = (item.team1 == data.name ? item.team2 : item.team1);
-        //    return { opponent: opponentName, time: item.time, location: item.location, locationUrl: locations[item.location] };
-        //});
 
         vm.games(filtered);
 
