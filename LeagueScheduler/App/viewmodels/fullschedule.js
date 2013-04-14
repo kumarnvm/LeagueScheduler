@@ -3,7 +3,12 @@
         title: 'Full League Schedule',
         activate: activate,
 
-        games: ko.observableArray()
+        games: ko.observableArray(),
+
+        scoreboardAlert: function () {
+            var scoreboardCoach = (this.team1TakesScoreboard ? this.team1 : this.team2);
+            logger.log(scoreboardCoach + ' takes scoreboard and scorebook home.', null, 'locationSchedule', true);
+        }
     };
 
     return vm;

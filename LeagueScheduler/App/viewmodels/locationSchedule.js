@@ -5,14 +5,19 @@
         activate: activate,
         title: 'Location Schedule',
 
-        games: ko.observableArray()
+        games: ko.observableArray(),
+
+        scoreboardAlert: function () {
+            var scoreboardCoach = (this.team1TakesScoreboard ? this.team1 : this.team2);
+            logger.log(scoreboardCoach + ' takes scoreboard and scorebook home.', null, 'locationSchedule', true);
+        }
     };
 
     return vm;
 
     //#region Internal Methods
     function activate(data) {
-        //logger.log('Team Schedule View Activated', null, 'teamSchedule', true);
+        //logger.log('Location Schedule View Activated', null, 'locationSchedule', true);
         logger.log('incoming location: ' + data.name);
         logger.log(leagueData);
         vm.title = 'Location Schedule for ' + data.name;
