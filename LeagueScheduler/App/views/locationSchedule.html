@@ -1,0 +1,16 @@
+﻿<section>
+    <h2 class="page-title" data-bind="text: title"></h2>
+    <!--<h3 data-bind="text: title"></h3>-->
+
+    <div class="container-fluid" data-bind="foreach: games">
+        <div class="row">
+            <div class="span2" data-bind="shortDate: time"></div>
+            <div class="span1" data-bind="shortTime: time"></div>
+            <div class="span4" data-bind="text: team1 + ' vs. ' + team2"></div>
+            <!--<div class="span2">
+                <a data-bind="text: location, attr: { href: locationUrl }"></a>
+            </div>-->
+
+        </div>
+    </div>
+</section>
