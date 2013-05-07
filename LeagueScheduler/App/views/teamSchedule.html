@@ -8,8 +8,9 @@
             <div class="span2">
                 <a data-bind="text: opponent, attr: { href: '#/teams/' + opponent }"></a>
             </div>
-            <div class="span2">
-                <a data-bind="text: location, attr: { href: locationUrl }"></a>
+            <div class="span3">
+                <a data-bind="text: location, attr: { href: '#/locations/' + location }"></a>
+                (<a data-bind="attr: { href: locationUrl }">Map</a>)
             </div>
 
         </div>
