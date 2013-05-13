@@ -22,6 +22,7 @@
     locations['Veterans'] = 'http://goo.gl/maps/LXr19';
     locations['Patuxent-Valley-MS'] = 'http://goo.gl/maps/npqSH';
     locations['Centennial-HS'] = 'http://goo.gl/maps/vV2Y5';
+    locations['Long-Reach-HS'] = 'http://goo.gl/maps/M4fQe';
 
     var locationsArray = new Array();
     for (key in locations) {
@@ -66,33 +67,25 @@
     { team1: 'Wolfrey', team2: 'Orlosky', time: new Date(2013, 4, 17, 21, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: true, location: 'Veterans', locationUrl: locations['Veterans'] },
     { team1: 'Michelotti-Red', team2: 'Wimberly', time: new Date(2013, 4, 24, 18, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
     { team1: 'Michelotti-Blue', team2: 'Roberts', time: new Date(2013, 4, 24, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
-    { team1: 'Myers', team2: 'Orlosky', time: new Date(2013, 4, 24, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Veterans', locationUrl: locations['Veterans'] },
+    { team1: 'Myers', team2: 'Orlosky', time: new Date(2013, 4, 24, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
     { team1: 'Swartz-Gray', team2: 'Vipond', time: new Date(2013, 4, 24, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
-    { team1: 'Collins', team2: 'Wolfrey', time: new Date(2013, 4, 24, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Veterans', locationUrl: locations['Veterans'] },
+    { team1: 'Collins', team2: 'Wolfrey', time: new Date(2013, 4, 24, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
     { team1: 'Swartz-Blue', team2: 'Jackson', time: new Date(2013, 4, 24, 21, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
-    { team1: 'DeLuca', team2: 'Morgan', time: new Date(2013, 4, 24, 21, 0, 0), team1TakesScoreboard: true, team2TakesScoreboard: false, location: 'Veterans', locationUrl: locations['Veterans'] },
-    { team1: 'Off', team2: 'Off', time: new Date(2013, 4, 31, 18, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: '', locationUrl: locations[''] },
-    { team1: 'Off', team2: 'Off', time: new Date(2013, 4, 31, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: '', locationUrl: locations[''] },
+    { team1: 'DeLuca', team2: 'Morgan', time: new Date(2013, 4, 24, 21, 0, 0), team1TakesScoreboard: true, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
+    { team1: 'Michelotti-Blue', team2: 'Swartz-Gray', time: new Date(2013, 4, 31, 18, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
+    { team1: 'Michelotti-Red', team2: 'Swartz-Blue', time: new Date(2013, 4, 31, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
     { team1: 'Orlosky', team2: 'DeLuca', time: new Date(2013, 4, 31, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Veterans', locationUrl: locations['Veterans'] },
-    { team1: 'Off', team2: 'Off', time: new Date(2013, 4, 31, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: '', locationUrl: locations[''] },
+    { team1: 'Jackson', team2: 'Roberts', time: new Date(2013, 4, 31, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
     { team1: 'Myers', team2: 'Collins', time: new Date(2013, 4, 31, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Veterans', locationUrl: locations['Veterans'] },
-    { team1: 'Off', team2: 'Off', time: new Date(2013, 4, 31, 21, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: '', locationUrl: locations[''] },
+    { team1: 'Morgan', team2: 'Vipond', time: new Date(2013, 4, 31, 21, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
     { team1: 'Wimberly', team2: 'Wolfrey', time: new Date(2013, 4, 31, 21, 0, 0), team1TakesScoreboard: true, team2TakesScoreboard: false, location: 'Veterans', locationUrl: locations['Veterans'] },
-    { team1: 'Michelotti-Blue', team2: 'Swartz-Gray', time: new Date(2013, 5, 7, 18, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
-    { team1: 'Michelotti-Red', team2: 'Swartz-Blue', time: new Date(2013, 5, 7, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Swartz-Gray', team2: 'Morgan', time: new Date(2013, 5, 7, 18, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Roberts', team2: 'Swartz-Blue', time: new Date(2013, 5, 7, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
     { team1: 'Orlosky', team2: 'Wimberly', time: new Date(2013, 5, 7, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Veterans', locationUrl: locations['Veterans'] },
-    { team1: 'Jackson', team2: 'Roberts', time: new Date(2013, 5, 7, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Vipond', team2: 'Jackson', time: new Date(2013, 5, 7, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
     { team1: 'Myers', team2: 'Wolfrey', time: new Date(2013, 5, 7, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Veterans', locationUrl: locations['Veterans'] },
-    { team1: 'Morgan', team2: 'Vipond', time: new Date(2013, 5, 7, 21, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
+    { team1: 'Michelotti-Red', team2: 'Michelotti-Blue', time: new Date(2013, 5, 7, 21, 0, 0), team1TakesScoreboard: true, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
     { team1: 'DeLuca', team2: 'Collins', time: new Date(2013, 5, 7, 21, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: true, location: 'Veterans', locationUrl: locations['Veterans'] },
-    { team1: 'Swartz-Gray', team2: 'Morgan', time: new Date(2013, 5, 14, 18, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
-    { team1: 'Off', team2: 'Off', time: new Date(2013, 5, 14, 18, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: '', locationUrl: locations[''] },
-    { team1: 'Roberts', team2: 'Swartz-Blue', time: new Date(2013, 5, 14, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
-    { team1: 'Off', team2: 'Off', time: new Date(2013, 5, 14, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: '', locationUrl: locations[''] },
-    { team1: 'Vipond', team2: 'Jackson', time: new Date(2013, 5, 14, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
-    { team1: 'Off', team2: 'Off', time: new Date(2013, 5, 14, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: '', locationUrl: locations[''] },
-    { team1: 'Michelotti-Red', team2: 'Michelotti-Blue', time: new Date(2013, 5, 14, 21, 0, 0), team1TakesScoreboard: true, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
-    { team1: 'Off', team2: 'Off', time: new Date(2013, 5, 14, 21, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: '', locationUrl: locations[''] },
     ];
 
     var data = {

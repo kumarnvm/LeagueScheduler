@@ -71,6 +71,7 @@ namespace DataGenerator
             js.AppendLine("locations['Veterans'] = 'http://goo.gl/maps/LXr19';");
             js.AppendLine("locations['Patuxent-Valley-MS'] = 'http://goo.gl/maps/npqSH';");
             js.AppendLine("locations['Centennial-HS'] = 'http://goo.gl/maps/vV2Y5';");
+            js.AppendLine("locations['Long-Reach-HS'] = 'http://goo.gl/maps/M4fQe';");
             js.AppendLine();
             js.AppendLine("var locationsArray = new Array();");
             js.AppendLine("for (key in locations) {");
