@@ -77,7 +77,7 @@
     { team1: 'Orlosky', team2: 'DeLuca', time: new Date(2013, 4, 31, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
     { team1: 'Jackson', team2: 'Roberts', time: new Date(2013, 4, 31, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Centennial-HS', locationUrl: locations['Centennial-HS'] },
     { team1: 'Myers', team2: 'Collins', time: new Date(2013, 4, 31, 20, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
-    { team1: 'Morgan', team2: 'Vipond', time: new Date(2013, 4, 31, 21, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Centennial-HS', locationUrl: locations['Centennial-HS'] },
+    { team1: 'Morgan', team2: 'Vipond', time: new Date(2013, 4, 31, 21, 0, 0), team1TakesScoreboard: true, team2TakesScoreboard: false, location: 'Centennial-HS', locationUrl: locations['Centennial-HS'] },
     { team1: 'Wimberly', team2: 'Wolfrey', time: new Date(2013, 4, 31, 21, 0, 0), team1TakesScoreboard: true, team2TakesScoreboard: false, location: 'Long-Reach-HS', locationUrl: locations['Long-Reach-HS'] },
     { team1: 'Swartz-Gray', team2: 'Morgan', time: new Date(2013, 5, 7, 18, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
     { team1: 'Roberts', team2: 'Swartz-Blue', time: new Date(2013, 5, 7, 19, 0, 0), team1TakesScoreboard: false, team2TakesScoreboard: false, location: 'Dunloggin', locationUrl: locations['Dunloggin'] },
